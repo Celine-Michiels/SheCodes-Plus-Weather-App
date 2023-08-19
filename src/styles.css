@@ -16,6 +16,9 @@ h3 {
 h4 {
   font-size: 28px;
 }
+p {
+  text-align: center;
+}
 form {
   margin: 20px;
 }
@@ -33,13 +36,20 @@ li {
 }
 
 .card {
-  margin: 50px auto;
+  margin: 40px auto;
   border-radius: 30px;
   background-color: #b0edfc;
 }
 .cloud-icon {
   color: #a9a9a9;
   font-size: 40px;
+}
+.current-location {
+  background: #939cc2;
+  border-radius: 10px;
+}
+.current-button:hover {
+  background: white;
 }
 .field {
   border-radius: 10px;
@@ -58,6 +68,7 @@ li {
 .search-button:hover {
   background: white;
 }
+
 .sun-icon {
   color: #fdd155;
   font-size: 40px;
